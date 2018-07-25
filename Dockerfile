@@ -6,7 +6,6 @@ RUN apt-get update -qqy && \
     \
     # Install OptiPNG
     echo "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe" > /etc/apt/sources.list && \
-    apt-get remove --purge -y lsb-release $(apt-mark showauto) && \
     apt-get update -qqy && \
     apt-get install -qqy --no-install-recommends optipng && \
     \
