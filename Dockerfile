@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu
 MAINTAINER Laurens Stötzel <l.stoetzel@meeva.de>
 
 RUN apt-get update -qqy && \
